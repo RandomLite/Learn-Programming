@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LevelActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Choose languauge level:"
+    android:textSize="28dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="50dp"
+    android:textAlignment="center"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toTopOf="@+id/btnBeginner"/>
+
+    />
+        <Button
+            android:id="@+id/btnBeginner"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="@string/beginner"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnIntermediate"/>
+
+    <Button
+        android:id="@+id/btnIntermediate"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Intermediate"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnExpert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBeginner" />
+
+    <Button
+        android:id="@+id/btnExpert"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Expert"
+        android:textColor="@color/white"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIntermediate" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

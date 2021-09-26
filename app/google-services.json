@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "997904913917",
+    "firebase_url": "https://learnprograming-e188d-default-rtdb.firebaseio.com",
+    "project_id": "learnprograming-e188d",
+    "storage_bucket": "learnprograming-e188d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997904913917:android:f5d1ba0ea0e1c801a33594",
+        "android_client_info": {
+          "package_name": "com.example.learnprograming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997904913917-lfgs5a60pl161ifo22pqavplfofbqde7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsdCUDpceM_OwFqYE_KqCz4mAKpK1H7TQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997904913917-lfgs5a60pl161ifo22pqavplfofbqde7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/expand_lang_question"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExpandableLangDetailsActivity">
+
+   <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_expandableLangDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       tools:listitem="@layout/expandable_card_item"
+        app:layout_constraintTop_toTopOf="parent"
+       app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+<!--<FrameLayout-->
+<!--android:id="@+id/flFragment"-->
+<!--android:layout_width="350dp"-->
+<!--android:layout_height="380dp"-->
+
+<!--app:layout_constraintBottom_toBottomOf="parent"-->
+<!--app:layout_constraintEnd_toEndOf="parent"-->
+<!--app:layout_constraintStart_toStartOf="parent"-->
+<!--app:layout_constraintTop_toTopOf="parent"-->
+<!--android:background="#00000000"-->
+<!--    />-->
